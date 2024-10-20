@@ -75,10 +75,10 @@ int main() {
   cin >> input[1];
   cout << "Speed Z: ";
   cin >> input[2];
-
   robot.calculateSpeed(input);
-  robot.displaySpeeds();
   robot.saveToFile("output.txt");
-
+  robot.loadFromFile("output.txt");
+  cout << "Speeds loaded from file:" << endl;
+  robot.displaySpeeds();
   return 0;
 }
