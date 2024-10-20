@@ -24,10 +24,10 @@ Repositori ini berisi program C++ yang mensimulasikan perhitungan kecepatan moto
     ```
 2. Kompilasi program C++:
     ```bash
-    g++ -o robot_speed_calculator robot_speed_calculator.cpp
+    g++ -o Modul2_5025241118_Muhammad_Adi_Anugerah_Arrahman.cpp
     ```
 3. Jalankan program:
     ```bash
-    ./robot_speed_calculator
+    ./Modul2_5025241118_Muhammad_Adi_Anugerah_Arrahman
     ```
 4. Masukkan vektor kecepatan untuk X, Y, dan Z sesuai permintaan, lalu program akan menampilkan kecepatan motor dan menyimpannya ke dalam file `output.txt`.
